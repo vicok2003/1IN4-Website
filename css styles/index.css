@@ -409,15 +409,15 @@ line-height: 43.2px;
       .footer-flexs{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: flex-end;
         padding-bottom: 6em;
       }
-
+    
       .address{
         /* border: 1px solid #f00;   */
         display: flex;
         justify-content: space-between;
-        align-items: center;  
+        align-items: flex-end;  
         gap: 2em;
       }
 
@@ -426,7 +426,7 @@ line-height: 43.2px;
       }
 
       .footer-p{
-        width: 730px;
+        width: 720px;
         line-height: 22.4px;
         font-size: 14px;
         font-weight: 400;
