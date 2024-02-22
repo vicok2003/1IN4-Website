@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 1.3em;
+}
+
+:root {
+    --primary-textcolor: #ffffff;
+    --secondary-textcolor: #000000;
+    --foot: #090D36;
+    --btn: #1C256E;
+    --padding: 0 4em;
+    --padding-mobile: 0 1em;
+}
+
+h1, h2, h3{
+    font-family: 'zodiak' !important;
+}
+
+p{
+    font-family:  'Inter' !important;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-textcolor);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.navlinks-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    position: relative;
+    z-index: 2; 
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navlinks-container ul {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navlinks-container ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navlinks-container ul li a {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secondary-textcolor);
+}
+
+
+.navlinks-container button {
+    padding: 10px 20px;
+    background-color: var(--btn); 
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* footer */
+
+  footer{
+    bottom: 0%;
+  }
+
+  .footer{
+    background-color: var(--foot);
+    padding: 6em;
+    color: var(--primary-textcolor);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+    height: 100%;
+  }
+
+  .footer-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8em;
+  }
+
+  .footer-flexs{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 6em;
+  }
+
+  .address{
+    /* border: 1px solid #f00;   */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    gap: 2em;
+  }
+
+  .address img{
+    height: 100%;
+  }
+
+  .footer-p{
+    width: 730px;
+    line-height: 22.4px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+
+  .foot-socials{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .last-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6em;
+  }
+
+  .straight-line {
+    width: 100%;
+    border-top: 1px solid #ffffff; 
+    opacity: 0.2; 
+    background-color: transparent;
+}
+
+  
