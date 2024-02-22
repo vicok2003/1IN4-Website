@@ -50,7 +50,7 @@ span{
   display: flex; 
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em;
+  padding: 32px 100px;
   position: relative;
   z-index: 2; 
 }
@@ -80,7 +80,7 @@ span{
 
 
 .navlinks-container button {
-  padding: 10px 20px;
+  padding: 16px 26px;
   background-color: var(--btn); 
   border: none;
   color: white;
@@ -112,10 +112,14 @@ span{
   padding: 10px 0 0;
 }
 
+.abt-us{
+  padding: 32px 100px;
+}
+
 
 .big-box div{
   margin: auto;
-  width: 1240px;
+  width: 100%;
   height: 620px;
   background-color: var(--default);
 }
@@ -308,59 +312,13 @@ line-height: 1.6em;
 
 .ad-contact span{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 22.4px;
 }
-
-
 
 .google-map img{
   min-width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 

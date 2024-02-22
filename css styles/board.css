@@ -40,7 +40,7 @@ a:hover {
   display: flex; 
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em;
+  padding: 32px 100px;
   position: relative;
   z-index: 2; 
 }
@@ -70,7 +70,7 @@ a:hover {
 
 
 .navlinks-container button {
-  padding: 10px 20px;
+  padding: 16px 26px;
   background-color: var(--btn); 
   border: none;
   color: white;
@@ -81,34 +81,58 @@ a:hover {
   font-family: 'Inter';
 }
 
+/* main styles */
 
+.board-container{
+  padding: 104px 100px;
+}
 
+.container-head h1{
+  font-weight: 740;
+  font-size: 32px;
+  line-height: 43.2px;
+}
 
+.container-head p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.6px;
+  padding-top: 1em;
+}
 
+.board-flexs {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  margin-top: 5em;
+}
 
+.our-board {
+  width: calc(25% - 1px); 
+  margin-bottom: 3em;
+  
+}
 
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
 
+.board-info h3{
+  font-weight: 540;
+  font-size: 18px;
+  line-height: 24.12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.board-info span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: 'inter';
+  padding-top: 1em;
+}
 
 /* footer */
 
