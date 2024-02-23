@@ -79,6 +79,15 @@
     text-transform: uppercase;
     font-family: 'Inter';
   }
+
+  .sidenav{
+    display: none;
+  }
+  
+
+  .opennav{
+    display: none;
+  }
   
   .gallery-details-container{
     padding: 32px 100px;
@@ -102,6 +111,12 @@
     height: 400px;
     background-color: #D9D9D9;
     /* border: 1px solid #f00 */
+  }
+
+  .box-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 
 
@@ -174,3 +189,73 @@
     from {opacity: 0.8;}
     to {opacity: 1;}
   } */
+
+  @media (max-width: 768px) {
+    .navlinks-container{
+      display: none;
+  }
+  
+  
+  .sidenav {
+      display: block;
+      height: 90%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #1C256E;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+  
+    .sidenav.scrolled {
+      height: 100%;
+    }
+  
+    .opennav{
+      display: block;
+      position: absolute;
+      right: 0;
+      color: #000000;
+      padding: 1em 1em 0 0;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 30px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+      margin: 0 0.2em;
+      border-radius: 6px;
+    }
+      
+    .anchor-links:hover {
+      color: #000000;
+      background-color: #F5F6FC;
+      margin: 0 0.2em 0 1.5em;
+    }
+  
+    .sidenav #closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+  
+    #closebtn{
+      background-color: none;
+    }
+    
+    .mobile-logo{
+      width: 53px;
+      height: 35px;
+      background-color: #C1C1C1;
+      margin: 0 0 1em 1.8em;
+    }
+  
+  }

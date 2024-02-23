@@ -29,13 +29,26 @@
 
             <div><a href="#"><button>join us</button></a></div>
         </nav>
+
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="opennav">&#9776;</span>
+        <!-- mobile nav -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+            <div class="mobile-logo"></div>
+            <a href="./aboutus.html" class="anchor-links">about</a>
+            <a href="./board.html" class="anchor-links">board of trustees</a>
+            <a href="./gallery.html" class="anchor-links">gallery</a>
+            <a href="./partners.html" class="anchor-links">partners</a>
+        </div>
     </header>
 
     <main>
         <section class="gallery-details-container">
             <div class="slider">
                 <div class="myslider">
-                    <div class="box-img"></div>
+                    <div class="box-img">
+                        <img src="./Assets/board 5.png" alt="">
+                    </div>
                     <div class="details">
                         <h1>Kene Ohiaeri</h1>
                         <span>Lead Strategist</span>
@@ -48,5 +61,6 @@
                 <a href="" class="next">&#10095;</a>
         </section>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
