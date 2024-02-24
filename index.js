@@ -37,12 +37,18 @@ window.addEventListener('scroll', () => {
   }
 });
 
-//swiper.js
-// Initialize Swiper
-var swiper = new swiper('.swiper-container', {
-  direction: 'vertical',
-            loop: true,
-            autoplay: {
-                delay: 5000,
-            },
-});
+//js animation
+// ScrollReveal({
+    //  reset: true,
+//      distance: "80px",
+//      duration: 1000,
+//      delay: 200
+//     });
+
+// ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+// ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+// ScrollReveal().reveal('.empower p, .empower h2', { origin: 'left' });
+// ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+// ScrollReveal().reveal('.social-media', { origin: 'right' });
+// ScrollReveal().reveal('.btn', { origin: 'bottom' });
+

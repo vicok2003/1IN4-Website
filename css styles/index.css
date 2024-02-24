@@ -325,6 +325,10 @@ line-height: 43.2px;
         height: 100%;
     }
 
+    .parent2{
+        display: none;
+    }
+
     .line {
         width: 100%;
         border-top: 1px solid #BBBBBB; 
@@ -463,6 +467,15 @@ line-height: 43.2px;
 
     .mobile-footer-cont{
         display: none;
+    }
+
+    .animate-fadeIn {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .animate-fadeIn.appear {
+        opacity: 1;
     }
     
       @media (max-width: 768px) {
@@ -801,6 +814,7 @@ line-height: 43.2px;
             }
             
             .parent2 {
+                display: block;
                 overflow: hidden;
             }
             
