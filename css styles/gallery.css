@@ -141,6 +141,9 @@ a:hover {
   .div11 { grid-area: 3 / 3 / 4 / 4; }
   .div12 { grid-area: 3 / 4 / 4 / 5; }
  
+  .slider-container{
+    display: none;
+  }
  
  /* footer */
 
@@ -216,6 +219,10 @@ a:hover {
   display: none;
 }
 
+.logo-container{
+  display: none;
+}
+
 @media (max-width: 768px){
   .navlinks-container{
     display: none;
@@ -240,10 +247,19 @@ a:hover {
     height: 100%;
   }
 
+  .logo-container {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 1em;
+  }
+
+
   .opennav{
     display: block;
     position: absolute;
     right: 0;
+    top: 0;
     color: #000000;
     padding: 1em 1em 0 0;
   }
@@ -352,4 +368,59 @@ a:hover {
     width: 49px;
     background-color: #d9d9d9;
 }
+
+.parent{
+  display: none;
+}
+
+.main-container{
+  padding: 104px 1em 1.6em;
+}
+
+.main-head{
+  margin-bottom: 2em;
+}
+
+.main-head h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.4px;
+}
+
+.main-head p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.slider-container {
+  display: block;
+  position: relative;
+}
+.big-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.big-box img {
+  width: 100%;
+  height: auto;
+}
+.mini-boxes {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 1em;
+  /* Enable smooth scrolling on iOS */
+  -webkit-overflow-scrolling: touch; 
+}
+.mini-box {
+  flex: 0 0 auto;
+  margin-right: 10px; 
+}
+.mini-box img {
+  width: 100p; 
+  height: 100px; 
+  cursor: pointer;
+}
+
 }

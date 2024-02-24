@@ -749,6 +749,12 @@ line-height: 43.2px;
             background-color: #d9d9d9;
         }
 
+        .accordion{
+            font-weight: 540;
+            font-size: 20px;
+            line-height: 26.8px;
+        }
+
         .FAQ{
             width: 100%;
             padding: 0 1em;
@@ -762,16 +768,17 @@ line-height: 43.2px;
          }
     
         .FAQ p {
+            font-size: 14px;
             font-weight: 400;
             line-height: 22.4px;
             padding: 0;
         }
     
 
-          .sect-3{
-            padding: 0 1em 4em;
+        .sect-3{
+            padding: 0 1em 2em;
             margin: 0;
-            background-color: #F3F3F3;
+            background-color: #ffffff;
         }
         
         .sect-3 h1{
@@ -790,31 +797,38 @@ line-height: 43.2px;
         
         
         .parent {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            grid-column-gap: 20px;
-            grid-row-gap: 20px;
-         
+          display: none;
             }
             
-            .div1 { grid-area: 1 / 1 / 2 / 2; }
-            .div2 { grid-area: 1 / 2 / 2 / 3; }
-            .div3 { grid-area: 1 / 3 / 2 / 4; }
-            .div4 { grid-area: 1 / 4 / 2 / 5; }
-            .div5 { grid-area: 2 / 1 / 3 / 2; }
-            .div6 { grid-area: 2 / 2 / 3 / 3; }
-            .div7 { grid-area: 2 / 3 / 3 / 4; }
-            .div8 { grid-area: 2 / 4 / 3 / 5; }
-        
-            .box{
-                background-color: gray;
-                height: 295px;
+            .parent2 {
+                overflow: hidden;
             }
-        
-            .box img{
-                object-fit: cover;
+            
+            .slider {
+                display: flex;
+                overflow-x: scroll;
+                -webkit-overflow-scrolling: touch; 
+                scroll-snap-type: x mandatory; 
+            }
+            
+            .slide {
+                flex: 0 0 auto;
+                width: 65%;
+                margin-right: 2em;
+                scroll-snap-align: start; 
+            }
+            
+            .slide img {
                 width: 100%;
-                height: 100%;
+                height: auto;
             }
+
+            .slide p {
+                text-align: center; 
+                margin-top: 5px;
+                font-size: 14px; 
+                color: #333;
+            }
+            
+            
       }

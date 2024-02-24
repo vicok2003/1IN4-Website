@@ -30,7 +30,12 @@
             <div><a href="#"><button>join us</button></a></div>
         </nav>
 
-        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="opennav">&#9776;</span>
+        <div>
+            <div class="logo-container">
+                    <a href="./index.html"><img src="./Assets/Logo.png" alt="logo"></a>
+            </div>
+            <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="opennav">&#9776;</span>
+        </div>
         <!-- mobile nav -->
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
@@ -88,7 +93,24 @@
                     <img src="./Assets/Image.png" alt="">
                 </div>
             </div>
+            <!-- mobile slider -->
+            <div class="slider-container">
+                <div class="big-box">
+                  <img src="" id="bigImage" alt="Big Image">
+                </div>
+                <div class="mini-boxes">
+                  <div class="mini-box"><img src="./Assets/Image.png" alt="Image 1"></div>
+                  <div class="mini-box"><img src="./Assets/gallery.png" alt="Image 2"></div>
+                  <div class="mini-box"><img src="./Assets/Image.png" alt="Image 3"></div>
+                  <div class="mini-box"><img src="./Assets/gallery.png" alt="Image 3"></div>
+                  <div class="mini-box"><img src="./Assets/Image.png" alt="Image 3"></div>
+                  <div class="mini-box"><img src="./Assets/gallery.png" alt="Image 3"></div>
+                  <!-- Add more mini boxes as needed -->
+                </div>
+              </div>
+              
         </section>
+
     </main>
 
        <!-- footer -->
@@ -154,5 +176,6 @@
         </div>
     </footer>
     <script src="./index.js"></script>
+    <script src="./gallery.js"></script>
 </body>
 </html>

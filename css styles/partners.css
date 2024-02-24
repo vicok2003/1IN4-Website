@@ -217,6 +217,10 @@ footer{
     display: none;
 }
 
+.logo-container{
+  display: none;
+}
+
 @media (max-width: 768px){
     .navlinks-container{
       display: none;
@@ -241,10 +245,18 @@ footer{
       height: 100%;
     }
   
+    .logo-container {
+      display: block;
+      position: relative;
+      top: 30px;
+      left: 1em;
+    }
+
     .opennav{
       display: block;
       position: absolute;
       right: 0;
+      top: 0;
       color: #000000;
       padding: 1em 1em 0 0;
     }
@@ -353,5 +365,60 @@ footer{
       width: 49px;
       background-color: #d9d9d9;
   }
-  }
+
   
+
+  .partners-head {
+    background-color: #F7FCFF;
+    padding: 1em; 
+}
+
+.partners-head h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.4px;
+    padding-bottom: 0.3em;
+}
+.partners-head p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.new-section {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.sidebar {
+  display: none; 
+}
+.boxes-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3em 0;
+}
+
+.box {
+  width: calc(50% - 20px); 
+  max-width: 340px; 
+  height: 250px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.gray-box {
+  height: 50%;
+  width: 100%;
+  background-color: #d9d9d9;
+}
+}
+  
+@media (max-width: 992px) {
+  .partners-head {
+      padding: 104px 2em;
+  }
+  }

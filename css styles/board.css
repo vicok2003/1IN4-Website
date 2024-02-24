@@ -221,6 +221,10 @@ footer{
   display: none;
 }
 
+.logo-container{
+  display: none;
+}
+
 
 @media (max-width: 768px){
   .navlinks-container{
@@ -246,10 +250,19 @@ footer{
     height: 100%;
   }
 
+  .logo-container {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 1em;
+  }
+
+
   .opennav{
     display: block;
     position: absolute;
     right: 0;
+    top: 0;
     color: #000000;
     padding: 1em 1em 0 0;
   }
@@ -358,5 +371,62 @@ footer{
     width: 49px;
     background-color: #d9d9d9;
 }
+
+.board-container {
+  padding: 104px 1em; 
+}
+
+.container-head h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.4px;
+}
+
+.container-head p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+  padding-top: 1em;
+}
+
+.board-flexs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5em;
+  gap: 20px; /* Add gap between flex items */
+}
+
+.our-board {
+  width: calc(50% - 10px); /* Adjusted width with gap included */
+  margin-bottom: 3em;
+}
+.box {
+  width: 130px; /* Full width for mobile */
+  height: 130px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+
+.box img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.board-info h3 {
+  font-weight: 540;
+  font-size: 14px;
+  line-height: 18.76px;
+}
+
+.board-info span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.2px;
+  font-family: 'inter';
+  padding-top: 1em;
+}
+
 }
 
